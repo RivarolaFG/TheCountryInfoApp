@@ -6,9 +6,7 @@ import { ConfigModule } from '@nestjs/config';
 import { ProvidersModule } from './providers/providers.module';
 
 @Module({
-  imports: [
-    CountriesModule,
-],
+  imports: [CountriesModule],
   controllers: [AppController],
   providers: [AppService],
 })

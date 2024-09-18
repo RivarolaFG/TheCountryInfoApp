@@ -5,8 +5,8 @@ import { ProvidersModule } from 'src/providers/providers.module';
 import { CountriesapiService } from 'src/providers/http/countriesapi.service';
 
 @Module({
-  imports:[ProvidersModule],
+  imports: [ProvidersModule],
   providers: [CountriesService, CountriesapiService],
-  controllers: [CountriesController]
+  controllers: [CountriesController],
 })
 export class CountriesModule {}

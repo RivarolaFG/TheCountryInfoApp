@@ -10,8 +10,8 @@ export class CountriesController {
     return this.countriesService.getAvailableCountries();
   }
   @Get('getCountryInfo/:id')
-  async getCountryInfo(@Param('id')  id: string) {
-    const body = id.split("_");
-    return this.countriesService.getCountryInfo(body[0],body[1]);
+  async getCountryInfo(@Param('id') id: string) {
+    const body = id.split('_');
+    return this.countriesService.getCountryInfo(body[0], body[1]);
   }
 }

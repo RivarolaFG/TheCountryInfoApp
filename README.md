@@ -7,7 +7,7 @@ To run the application, follow these simple steps:
 1-Open a terminal in each application directory (backend and frontend).
 
 2-Install the necessary modules by running the following command in both directories:
-        npm install
+npm install
 3-After the modules are installed, start both applications:
 
     backend
